@@ -1,4 +1,4 @@
-import Model from "..PUBLIC/Model.js";
+import Model from "../PUBLIC/Model.js";
 //removeKosarItem(id): ellenőrizd, hogy el tudsz-e távolítani egy adott terméket a kosárból. Mi van akkor, ha nem létező ID-jú terméket akarsz eltávolítani?
 function removeKosarItem_TESZT() {
   const model = new Model();
@@ -10,6 +10,7 @@ function removeKosarItem_TESZT() {
     kep: "./kepek/placeholder.jpg",
     leiras: "Ez egy példa termék leírása.",
   };
+  console.log("removeKosarItem_TESZT()")
   model.addKosar(termek);
 
   console.log("Termék hozzáadva");
@@ -41,6 +42,6 @@ function removeKosarItem_TESZT() {
   );
   console.log("Kosár hossza:", kosarLista.length);
 
-  console.log("lefutott az removeKosarItem_TESZT");/*Valamit roszil inportálok mert nem jelenik meg a consol log szöveg */
+  console.log("lefutott az removeKosarItem_TESZT");/*Valamit roszul inportálok mert nem jelenik meg a consol log szöveg */
 }
 removeKosarItem_TESZT();

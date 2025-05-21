@@ -1,4 +1,4 @@
-import Termekek from "./PUBLIC/Termekek.js";  /*Valamit roszil inportálok mert nem jelenik meg a consol log szöveg */
+import Termekek from "../PUBLIC/Termekek.js";  /*Valamit roszil inportálok mert nem jelenik meg a consol log szöveg */
 /*Terméklista megjelenítése (Termekek osztály):
 
 Ellenőrizd, hogy a termékek adatai (név, ár stb.) helyesen jelennek meg.
